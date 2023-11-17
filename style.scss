@@ -1,0 +1,22 @@
+body{
+    background:url(/img/refreshing-nature-background-with-bokeh_948265-2082.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.modal{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(3px);
+    justify-content: center;
+    align-items: center;
+    &_window{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
